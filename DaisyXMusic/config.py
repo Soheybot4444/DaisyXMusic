@@ -24,11 +24,11 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = "BABGV0ASCpLVg6LmD8B5HvJT7c5LVCRecvAi7t1JjJUD-IZoTiKu4RhgtkKb2e_O9C4iNQntLQ_tCepKXz6jpQw9-bAldZ9uxwlq-yK7oDZJoFW6KsPgR3FUi8G2Bl0o7OlJ-zLzzqzrDTubY2zVCPLzrpaYswlDeg6CKvrPTCLWR7GO2LVi_DwsOlp6LcNOqCwX5aWFLKMu6sRcL_K2dvUz4VMt_w8CbHCCWJVozsJZWxtzJ3MW-SJz2QHi5HuonT0cR8Mhm9d4Fe7C_gTf1mkfsyfXzeTQXO719t1UOTqXfM9SGrHX_jsBQKic2b_-keuy78ymwiflN2T-foGVPW51Yzw9UQA"
+SESSION_NAME = "BACatrAizbsP1eKBmNvfdTUZQKd7YeUGG9tSXPeQwqZmtMPfSa67teanSCN8hFjbLbUYI6nCQODOgpwozf28EoX1V73G6iliKQkvHBC_477HXRicn2qMhmBhvCqft6c5xy29VITpwgbMeD-2YdhOxl28uBs3A2oiJoe1xWUhjZz1XFPEDnuWLjE310rDXAMvriJ1Ip8Fkr5GRzpD725gyXKEPZYk_2AATOPxkiLZXDDhBy8dA0ITYujwZbR38BCq_OY6kv_ham3D1oYCS3gdMxQ1a0yEGXPzUfEp5mGYXbHUYZbo3RAmr2_S2uteIRyMVsxm_02a3_YaJ7MOnf02z8mrYzw9UQA"
 BOT_TOKEN = "1785461638:AAFM9uQeeBkh-yD6lGpYxLGKNHwDrf2HYTQ"
 BOT_NAME = "Music Player"
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "@DaisyXupdates")
-BG_IMAGE = "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
+BG_IMAGE = "https://telegra.ph/file/f27e5ffdc2ca4406952b8.jpg"
 admins = {}
 API_ID = 4328913
 API_HASH = "3230ec801f78a517c9a2ad6bebb7f7b4"
