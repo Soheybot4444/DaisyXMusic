@@ -57,7 +57,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("You ain't allowed!", show_alert=True)
+            await cb.answer("شما دسترسی ندارید", show_alert=True)
             return
 
     return decorator
@@ -138,13 +138,13 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style="md")
-    msg = "**Now Playing** in {}".format(message.chat.title)
+    msg = "{} در حال پخش در".format(message.chat.title)
     msg += "\n- " + now_playing
-    msg += "\n- Req by " + by
+    msg += "به درخواست" + by
     temp.pop(0)
     if temp:
         msg += "\n\n"
-        msg += "**Queue**"
+        msg += "**لیست**"
         for song in temp:
             name = song[0]
             usr = song[1].mention(style="md")
